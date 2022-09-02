@@ -2,10 +2,10 @@
 
 ## 5.0.0 (02.09.2022)
 ### Added
-- Support of Django 4.1
+- Support of Django 4.0
 
 ### Removed
-- Support of Django 1.11.x
+- Support of Django 1.11
 
 ## 4.0.0 (23.05.2020)
 ### Added
