@@ -6,6 +6,7 @@
 
 ### Removed
 - Support of Django 1.11
+- Support of Django 2.1
 
 ## 4.0.0 (23.05.2020)
 ### Added

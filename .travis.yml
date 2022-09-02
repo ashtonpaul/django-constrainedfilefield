@@ -6,17 +6,12 @@ python:
   - 3.8
   - 3.9
 env:
-  - DJANGO_VERSION=2.1.15
-  - DJANGO_VERSION=2.2.12
+  - DJANGO_VERSION=2.2.28
   - DJANGO_VERSION=3.2.15
   - DJANGO_VERSION=4.0.7
 # https://docs.djangoproject.com/en/stable/faq/install/#what-python-version-can-i-use-with-django
 matrix:
   exclude:
-    - env: DJANGO_VERSION=2.1.15
-      python: 3.8
-    - env: DJANGO_VERSION=2.1.15
-      python: 3.9
     - env: DJANGO_VERSION=3.2.15
       python: 3.5
     - env: DJANGO_VERSION=4.0.7

@@ -1,5 +1,5 @@
 [![Python](https://img.shields.io/badge/Python-3.5,3.6,3.7,3.8,3.9-blue.svg?style=flat-square)](/)
-[![Django](https://img.shields.io/badge/Django-2.1,2.2,3.2,4.0-blue.svg?style=flat-square)](/)
+[![Django](https://img.shields.io/badge/Django-2.2,3.2,4.0-blue.svg?style=flat-square)](/)
 [![License](https://img.shields.io/badge/License-BSD--3--Clause-blue.svg?style=flat-square)](/LICENSE)
 [![PyPIv](https://img.shields.io/pypi/v/django-constrainedfilefield.svg?style=flat-square)](https://pypi.org/project/django-constrainedfilefield)
 [![PyPIs](https://img.shields.io/pypi/status/django-constrainedfilefield.svg)](https://pypi.org/project/django-constrainedfilefield)
@@ -23,7 +23,7 @@ form field.
 
 ## Requirements
 * [Python][] >= 3.5
-* [Django]>= 2.1.15
+* [Django]>= 2.2.28
 * `python-magic` >= 0.4.2 *iff* you want to check the file type
 
 ## Installation
