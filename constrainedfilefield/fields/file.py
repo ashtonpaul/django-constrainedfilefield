@@ -7,12 +7,12 @@ from django import forms
 from django.conf import settings
 from django.db import models
 from django.template.defaultfilters import filesizeformat
-from django.utils.translation import gettext_lazy as _
+from django.utils.translation import ugettext_lazy as _
 
 
 class ConstrainedFileField(models.FileField):
     """
-    A FielField with additional constraints. Namely, the file size and type can be restricted. If
+    A FileField with additional constraints. Namely, the file size and type can be restricted. If
     using the types, the magic library is required. Setting neither a file size nor type behaves
     like a regular FileField.
 
