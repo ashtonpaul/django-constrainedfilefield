@@ -1,7 +1,11 @@
 # Changelog
 
-## 4.0.1 (31.08.2022)
-- make lazy text Django 4.0 compatible
+## 5.0.0 (02.09.2022)
+### Added
+- Support of Django 4.1
+
+### Removed
+- Support of Django 1.11.x
 
 ## 4.0.0 (23.05.2020)
 ### Added
