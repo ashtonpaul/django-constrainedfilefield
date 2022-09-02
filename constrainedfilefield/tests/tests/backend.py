@@ -226,7 +226,7 @@ class ConstrainedFileFieldTest(TestCase):
 
     def test_form_invalid_image_filetype(self):
         files = {
-            "the_image": self._create_simple_uploaded_file(
+            "the_image_small": self._create_simple_uploaded_file(
                 orig_filename="unsupported_image.jpg",
                 dest_filename="the_file.jpg",
                 content_type="image/jpeg",
@@ -235,9 +235,9 @@ class ConstrainedFileFieldTest(TestCase):
         form = TestImageModelForm(data={}, files=files)
         self.assertFalse(form.is_valid())
         self.assertEqual(len(form.errors), 1)
-        self.assertEqual(len(form.errors["the_image"]), 1)
+        self.assertEqual(len(form.errors["the_image_small"]), 1)
         self.assertEqual(
-            form.errors["the_image"][0],
+            form.errors["the_image_small"][0],
             u"Unsupported file type: image/jpeg. "
             u"Allowed types are ['image/png']."
         )
