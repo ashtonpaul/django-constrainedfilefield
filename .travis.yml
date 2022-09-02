@@ -8,7 +8,7 @@ env:
   - DJANGO_VERSION=2.1.15
   - DJANGO_VERSION=2.2.12
   - DJANGO_VERSION=3.2.15
-  - DJANGO_VERSION=4.1.1
+  - DJANGO_VERSION=4.1
 # https://docs.djangoproject.com/en/stable/faq/install/#what-python-version-can-i-use-with-django
 matrix:
   exclude:
@@ -22,6 +22,8 @@ matrix:
       python: 2.7
     - env: DJANGO_VERSION=2.2.12
       python: 3.4
+    - env: DJANGO_VERSION=3.2.15
+      python: 3.5
 addons:
   apt_packages:
     - pandoc
