@@ -19,7 +19,7 @@ matrix:
       python: 3.9
     - env: DJANGO_VERSION=3.2.15
       python: 3.5
-    - env: DJANGO_VERSION=4.0
+    - env: DJANGO_VERSION=4.0.7
       python: 3.5
     - env: DJANGO_VERSION=4.0.7
       python: 3.6
