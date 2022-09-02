@@ -28,7 +28,11 @@ class TestDocModel(models.Model):
 
 
 class TestImageModel(models.Model):
-    the_image = ConstrainedImageField(null=True, blank=True, upload_to="testfile",)
+    the_image = ConstrainedImageField(
+        null=True,
+        blank=True,
+        upload_to="testfile",
+        content_types=['image/png'],)
     the_image_small = ConstrainedImageField(
         null=True,
         blank=True,
