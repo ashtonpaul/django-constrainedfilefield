@@ -24,6 +24,8 @@ matrix:
       python: 3.4
     - env: DJANGO_VERSION=3.2.15
       python: 3.5
+      - env: DJANGO_VERSION=4.1
+      python: 3.5
 addons:
   apt_packages:
     - pandoc
